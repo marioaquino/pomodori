@@ -4,7 +4,7 @@
  <title>Pomodori</title>
  <link href="http://reborg.github.com/pomodori/atom.xml" rel="self"/>
  <link href="http://reborg.github.com/pomodori/"/>
- <updated>2009-03-17T08:41:57-05:00</updated>
+ <updated>2009-03-17T09:14:38-05:00</updated>
  <id>http://reborg.github.com/pomodori/</id>
  <author>
    <name>Reborg</name>
@@ -13,29 +13,105 @@
 
  
  <entry>
+   <title>main view work in progress</title>
+   <link href="http://reborg.github.com/pomodori/2009/03/17/todo.html"/>
+   <updated>2009-03-17T00:00:00-05:00</updated>
+   <id>http://reborg.github.com/pomodori/2009/03/17/todo</id>
+   <content type="html">&lt;h2 id='todays_planned_9'&gt;TODAY&amp;#8217;s PLANNED 9&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;planning 1&lt;/li&gt;
+
+&lt;li&gt;add gh-pages as submodule of master 2&lt;/li&gt;
+
+&lt;li&gt;modularization: replace actual application.rb UI with mainview object 2&lt;/li&gt;
+
+&lt;li&gt;modularization: extract multiple controllers and new mainview object from application.rb. 4.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id='todays_done'&gt;TODAY&amp;#8217;s DONE&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;planning 1 =&amp;gt; 1&lt;/li&gt;
+
+&lt;li&gt;add gh-pages as submodule of master 2 =&amp;gt; 1&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id='todays_not_done'&gt;TODAY&amp;#8217;s NOT DONE&lt;/h2&gt;
+
+&lt;h2 id='standup'&gt;STANDUP&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;I need to decide how big the refactoring should be and if I can call it refactoring or just a re-write of the application.rb&lt;/li&gt;
+
+&lt;li&gt;I think UI modularization is more appropriate&lt;/li&gt;
+
+&lt;li&gt;The work to do is to finish the layout of the mainview until I have more or less the same visual appeal of before&lt;/li&gt;
+
+&lt;li&gt;Consider not to waste too much time fine tweaking the UI, try to get the modularization done first and then fine tweak the UI. The important thing is that you see everything on the UI working as before.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id='retrospective'&gt;RETROSPECTIVE&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Planned 9, actually done 7&lt;/li&gt;
+
+&lt;li&gt;I have to be more careful about judging how much time I have available considering one long break every 4 hours&lt;/li&gt;
+
+&lt;li&gt;The refactoring operations are much more complicated than expected I should split into multiple tasks or consider if I&amp;#8217;m working on focus. Is the main view creation part of the controller extraction?&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id='internal_interruptions'&gt;INTERNAL INTERRUPTIONS&lt;/h2&gt;
+
+&lt;h2 id='external_interruptions'&gt;EXTERNAL INTERRUPTIONS&lt;/h2&gt;
+
+&lt;h2 id='raw_dump'&gt;RAW DUMP&lt;/h2&gt;
+&lt;pre&gt;&lt;code&gt;
+  73|@planning plus fixing some markdown jekyll generation issue|2009-03-16 15:07:24 -0500
+  74|@refactor creating the main view and learning how to align layout-views correctly using the example app|2009-03-16 15:37:57 -0500
+  75|@refactor creating the main-view more layout madness|2009-03-16 16:08:50 -0500
+  76|@refactor creating the main view. Had to decide if to use the same label for input and output. Also had a look at NSIMage for the pomo icon|2009-03-16 16:39:49 -0500
+  77|@refactor done with main-view creation copy pasting from application. It doesn't visualize as expected.|2009-03-16 17:29:42 -0500
+  78|@refactor testing the new main view but having problems to see where the margin of the layouts are.|2009-03-16 18:02:54 -0500
+  79|@refactor did some progress on understanding layouts. The mode vertical/horizontal for example. Still fighting for the best layout.|2009-03-16 18:36:55 -0500
+  80|@website finally got gh-pages as master submodule so I can change the site from the master branch|2009-03-17 08:43:32 -0500
+&lt;/code&gt;&lt;/pre&gt;</content>
+ </entry>
+ 
+ <entry>
    <title>some refactoring</title>
    <link href="http://reborg.github.com/pomodori/2009/03/16/todo.html"/>
    <updated>2009-03-16T00:00:00-05:00</updated>
    <id>http://reborg.github.com/pomodori/2009/03/16/todo</id>
    <content type="html">&lt;h2 id='today_planned_9'&gt;TODAY PLANNED 9&lt;/h2&gt;
-&lt;pre&gt;&lt;code&gt;
-- \@planning 1
-- \@refact extract multiple controllers and new main_view object from application.rb. 4.
-- \@charts Add a feature to the pomodoro model so that '\@something' in the description is automatically collected as tag internally. 4.
-&lt;/code&gt;&lt;/pre&gt;
+
+&lt;ul&gt;
+&lt;li&gt;planning 1&lt;/li&gt;
+
+&lt;li&gt;refact extract multiple controllers and new mainview object from application.rb 4&lt;/li&gt;
+
+&lt;li&gt;charts Add a feature to the pomodoro model so that &amp;#8216;something&amp;#8217; in the description is automatically collected as tag internally 4&lt;/li&gt;
+&lt;/ul&gt;
+
 &lt;h2 id='today_done'&gt;TODAY DONE&lt;/h2&gt;
-&lt;pre&gt;&lt;code&gt;
-&lt;/code&gt;&lt;/pre&gt;
+
+&lt;ul&gt;
+&lt;li&gt;planning 1 =&amp;gt; 1&lt;/li&gt;
+&lt;/ul&gt;
+
 &lt;h2 id='today_not_done'&gt;TODAY NOT DONE&lt;/h2&gt;
-&lt;pre&gt;&lt;code&gt;
-&lt;/code&gt;&lt;/pre&gt;
+
+&lt;ul&gt;
+&lt;li&gt;refact extract multiple controllers and new mainview object from application.rb. 4 =&amp;gt; 7&lt;/li&gt;
+
+&lt;li&gt;charts Add a feature to the pomodoro model so that &amp;#8216;something&amp;#8217; in the description is automatically collected as tag internally. 4.&lt;/li&gt;
+&lt;/ul&gt;
+
 &lt;h2 id='internal_interruptions'&gt;INTERNAL INTERRUPTIONS&lt;/h2&gt;
 
 &lt;h2 id='external_interruptions'&gt;EXTERNAL INTERRUPTIONS&lt;/h2&gt;
 
-&lt;h2 id='relevant_history'&gt;RELEVANT HISTORY&lt;/h2&gt;
-&lt;pre&gt;&lt;code&gt;
-&lt;/code&gt;&lt;/pre&gt;</content>
+&lt;h2 id='relevant_history'&gt;RELEVANT HISTORY&lt;/h2&gt;</content>
  </entry>
  
  <entry>
@@ -76,14 +152,6 @@
 71|@refact extended pomodoro_controller to call the view and started a new main_view to remove everything UI related from application.rb|2009-03-13 11:03:19 -0500
 72|@project migrated to 0.4 now playing again with view_layout expansion to remove abolute widgets locations.|2009-03-13 11:34:30 -0500
 &lt;/code&gt;&lt;/pre&gt;</content>
- </entry>
- 
- <entry>
-   <title>Welcome to 'Pomodori'</title>
-   <link href="http://reborg.github.com/pomodori/2009/02/21/first-post.html"/>
-   <updated>2009-02-21T00:00:00-06:00</updated>
-   <id>http://reborg.github.com/pomodori/2009/02/21/first-post</id>
-   <content type="html">&lt;p&gt;Pomodori is out! This first release is missing many of the features intended for the final product but it&amp;#8217;s already usable. More to come in the next posts.&lt;/p&gt;</content>
  </entry>
  
  

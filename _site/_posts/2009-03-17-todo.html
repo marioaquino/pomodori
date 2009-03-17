@@ -5,7 +5,7 @@
     <meta http-equiv="Content-type" content="text/html; charset=utf-8">
     <meta name="viewport" content="width = 750">
     <link rel="stylesheet" type="text/css" href="../../../css/stylesheet.css" charset="utf-8">
-    <title>work on charts started</title>
+    <title>main view work in progress</title>
   </head>
   <body id="intro">
     <div id="wrapper">
@@ -28,38 +28,64 @@
       </div>
       <div id="page_body">
         <div id="content">
-          <p>I just realized that this brain dump and retrospective I was writing at the end of each planning page for the day is a perfect fit for the content of this micro blog! The retrospective is process only: how my PT (Pomodoro Technique) is doing, pros and cons, what went right and what went wrong. The standup is to get started for the day: yesterday&#8217;s achievements, today&#8217;s plan, design ideas and so on. Everyday is taking me 1 pomodoro for this and definitely worth it.</p>
-
-<h2 id='retrospective'>Retrospective</h2>
+          <h2 id='todays_planned_9'>TODAY&#8217;s PLANNED 9</h2>
 
 <ul>
-<li>Still shooting for half a day of work these days, that means around 8 pomodoros.</li>
+<li>planning 1</li>
 
-<li>Productive morning no internal/external interruptions.</li>
+<li>add gh-pages as submodule of master 2</li>
 
-<li>I didn&#8217;t forget about the longer break this time.</li>
+<li>modularization: replace actual application.rb UI with mainview object 2</li>
+
+<li>modularization: extract multiple controllers and new mainview object from application.rb. 4.</li>
 </ul>
 
-<h2 id='standup'>Standup</h2>
+<h2 id='todays_done'>TODAY&#8217;s DONE</h2>
 
 <ul>
-<li>There is now a button that opens a new window with a webview that shows just a static HTML. The next step is of course to connect that HTML generation to the pomodoro history.</li>
+<li>planning 1 =&gt; 1</li>
 
-<li>I need a component that starting from a template is able to generate the HTML table with correct numbers to host the current pomodoros worked by tags chart.</li>
-
-<li>I also started thinking about refactoring the appliction.rb main file into multiple controllers, one for each part of the UI.</li>
-
-<li>I found the following architectural rule to be consistent: one class per view that represents only the UI tree and nothing else. One controller for each sub-view (this is because a sub-view is really an independent user story on its own). The controller can use zero or more model objects. There are controllers with no back end model. The controller works as a presenter: the controller knows about views and model and send command to change the view when the model change.</li>
-
-<li>I tried choctop: it doesn&#8217;t work without an underlying Xcode project, or at least not the tutorial. It&#8217;s a framework, so I suppose it can be used also with macruby. But I don&#8217;t know how and now it&#8217;s too complex.</li>
+<li>add gh-pages as submodule of master 2 =&gt; 1</li>
 </ul>
+
+<h2 id='todays_not_done'>TODAY&#8217;s NOT DONE</h2>
+
+<h2 id='standup'>STANDUP</h2>
+
+<ul>
+<li>I need to decide how big the refactoring should be and if I can call it refactoring or just a re-write of the application.rb</li>
+
+<li>I think UI modularization is more appropriate</li>
+
+<li>The work to do is to finish the layout of the mainview until I have more or less the same visual appeal of before</li>
+
+<li>Consider not to waste too much time fine tweaking the UI, try to get the modularization done first and then fine tweak the UI. The important thing is that you see everything on the UI working as before.</li>
+</ul>
+
+<h2 id='retrospective'>RETROSPECTIVE</h2>
+
+<ul>
+<li>Planned 9, actually done 7</li>
+
+<li>I have to be more careful about judging how much time I have available considering one long break every 4 hours</li>
+
+<li>The refactoring operations are much more complicated than expected I should split into multiple tasks or consider if I&#8217;m working on focus. Is the main view creation part of the controller extraction?</li>
+</ul>
+
+<h2 id='internal_interruptions'>INTERNAL INTERRUPTIONS</h2>
+
+<h2 id='external_interruptions'>EXTERNAL INTERRUPTIONS</h2>
 
 <h2 id='raw_dump'>RAW DUMP</h2>
 <pre><code>
-69|@planning realized I can use the blog feature of gh-pages as a daily plan page, retrospective and the rest.|2009-03-13 09:16:42 -0500
-70|@mvp started refactoring by extracting void pomodoro function|2009-03-13 09:55:06 -0500
-71|@refact extended pomodoro_controller to call the view and started a new main_view to remove everything UI related from application.rb|2009-03-13 11:03:19 -0500
-72|@project migrated to 0.4 now playing again with view_layout expansion to remove abolute widgets locations.|2009-03-13 11:34:30 -0500
+  73|@planning plus fixing some markdown jekyll generation issue|2009-03-16 15:07:24 -0500
+  74|@refactor creating the main view and learning how to align layout-views correctly using the example app|2009-03-16 15:37:57 -0500
+  75|@refactor creating the main-view more layout madness|2009-03-16 16:08:50 -0500
+  76|@refactor creating the main view. Had to decide if to use the same label for input and output. Also had a look at NSIMage for the pomo icon|2009-03-16 16:39:49 -0500
+  77|@refactor done with main-view creation copy pasting from application. It doesn't visualize as expected.|2009-03-16 17:29:42 -0500
+  78|@refactor testing the new main view but having problems to see where the margin of the layouts are.|2009-03-16 18:02:54 -0500
+  79|@refactor did some progress on understanding layouts. The mode vertical/horizontal for example. Still fighting for the best layout.|2009-03-16 18:36:55 -0500
+  80|@website finally got gh-pages as master submodule so I can change the site from the master branch|2009-03-17 08:43:32 -0500
 </code></pre>
                     
           <script type="text/javascript">var disqus_url = "http://reborg.github.com/pomodori/"; var disqus_title ="";</script>
