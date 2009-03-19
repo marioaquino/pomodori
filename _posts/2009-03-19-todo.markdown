@@ -1,0 +1,43 @@
+---
+layout: post
+title: extracting controllers
+---
+
+TODAY's PLANNED 6
+-----------------
+* modularization take some time to understand how much work still to be done and fill a task list to close in 6 pomodoros 1
+
+TODAY's DONE
+------------
+
+TODAY's NOT DONE
+----------------
+
+STANDUP
+-------
+* Skipped a day, no time to work.
+* I started to see the light of the refactoring but I still have an hard time figuring out how much work is to be done.
+* Could it be a good idea to timebox the work. Today is the last day of pure refactoring
+
+RETROSPECTIVE
+-------------
+* Planned 9, actually done 7
+* Estimates are too high level, need to split in multiple tasks.
+* Decided to remove the 1 pomodoro for planning I add everyday for clarity. I just need to shoot for 1 pomodoro less than usual.
+
+INTERNAL INTERRUPTIONS
+----------------------
+
+EXTERNAL INTERRUPTIONS
+----------------------
+
+RAW DUMP
+--------
+<pre><code>
+  80|@website finally got gh-pages as master submodule so I can change the site from the master branch|2009-03-17 08:43:32 -0500
+  81|@planning|2009-03-17 09:17:49 -0500
+  82|@modularization mainview having fun with layouts. Trying to be short, I just want the widgets to be in the right place|2009-03-17 09:49:23 -0500
+  83|@modularization back to absolute pixels for the view after huge frustration with layouts.|2009-03-17 10:20:01 -0500
+  84|@modularization fine tuned the main view to be similar to application.rb now need to extract controllers.|2009-03-17 10:53:08 -0500
+  85|@modularization extracting the view logic from the timerfield in preparation for renaming to timercontroller|2009-03-17 11:23:57 -0500
+  86|@modularization forced the timerfield to use the injected view for timer ticks. Need to update rest of application.rb|2009-03-17 11:55:09 -0500</code></pre>

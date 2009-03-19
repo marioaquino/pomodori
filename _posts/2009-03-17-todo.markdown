@@ -5,18 +5,17 @@ title: main view work in progress
 
 TODAY's PLANNED 9
 -----------------
-* planning 1
-* add gh-pages as submodule of master 2
-* modularization: replace actual application.rb UI with mainview object 2
-* modularization: extract multiple controllers and new mainview object from application.rb. 4.
 
-TODAY's DONE
-------------
+TODAY's DONE 7
+--------------
 * planning 1 => 1
 * add gh-pages as submodule of master 2 => 1
+* modularization: replace actual application.rb UI with mainview object 2 => 3
+* modularization: extract multiple controllers and new mainview object from application.rb. 4 => 2
 
 TODAY's NOT DONE
 ----------------
+* modularization: extract multiple controllers and new mainview object from application.rb. 4 => 2
 
 STANDUP
 -------
