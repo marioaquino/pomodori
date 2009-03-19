@@ -4,7 +4,7 @@
  <title>Pomodori</title>
  <link href="http://reborg.github.com/pomodori/atom.xml" rel="self"/>
  <link href="http://reborg.github.com/pomodori/"/>
- <updated>2009-03-19T10:09:35-05:00</updated>
+ <updated>2009-03-19T13:16:30-05:00</updated>
  <id>http://reborg.github.com/pomodori/</id>
  <author>
    <name>Reborg</name>
@@ -17,49 +17,66 @@
    <link href="http://reborg.github.com/pomodori/2009/03/19/todo.html"/>
    <updated>2009-03-19T00:00:00-05:00</updated>
    <id>http://reborg.github.com/pomodori/2009/03/19/todo</id>
-   <content type="html">&lt;h2 id='todays_planned_6'&gt;TODAY&amp;#8217;s PLANNED 6&lt;/h2&gt;
+   <content type="html">&lt;h2 id='todays_planned_6__5'&gt;TODAY&amp;#8217;s PLANNED 6 =&amp;gt; 5&lt;/h2&gt;
+
+&lt;h2 id='todays_done_5'&gt;TODAY&amp;#8217;s DONE 5&lt;/h2&gt;
 
 &lt;ul&gt;
+&lt;li&gt;planning 1 =&amp;gt; 1&lt;/li&gt;
+
 &lt;li&gt;modularization take some time to understand how much work still to be done and fill a task list to close in 6 pomodoros 1&lt;/li&gt;
+
+&lt;li&gt;modularization migrate on-pomodoro-done and on-break-done and on-app-start to the countdown-field soon to be timer-controller and update test suite for it 1 =&amp;gt; 3&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;h2 id='todays_done'&gt;TODAY&amp;#8217;s DONE&lt;/h2&gt;
-
 &lt;h2 id='todays_not_done'&gt;TODAY&amp;#8217;s NOT DONE&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;modularization summary controller to control statistics display with update-summary and format-metrics 2&lt;/li&gt;
+
+&lt;li&gt;modularization modal button controller with on click methods for submit, void, stop and callbacks to main view to change labels 2&lt;/li&gt;
+&lt;/ul&gt;
 
 &lt;h2 id='standup'&gt;STANDUP&lt;/h2&gt;
 
 &lt;ul&gt;
-&lt;li&gt;Skipped a day, no time to work.&lt;/li&gt;
-
 &lt;li&gt;I started to see the light of the refactoring but I still have an hard time figuring out how much work is to be done.&lt;/li&gt;
 
-&lt;li&gt;Could it be a good idea to timebox the work. Today is the last day of pure refactoring&lt;/li&gt;
+&lt;li&gt;I should be done next session in another 8 pomodoros.&lt;/li&gt;
 &lt;/ul&gt;
 
 &lt;h2 id='retrospective'&gt;RETROSPECTIVE&lt;/h2&gt;
 
 &lt;ul&gt;
-&lt;li&gt;Planned 9, actually done 7&lt;/li&gt;
+&lt;li&gt;Planned 6, actually done 5&lt;/li&gt;
 
-&lt;li&gt;Estimates are too high level, need to split in multiple tasks.&lt;/li&gt;
+&lt;li&gt;I split the modularization into multiple tasks and that worked. Underestimated heavily the timer controller work.&lt;/li&gt;
 
-&lt;li&gt;Decided to remove the 1 pomodoro for planning I add everyday for clarity. I just need to shoot for 1 pomodoro less than usual.&lt;/li&gt;
+&lt;li&gt;I was fast and fairly focused&lt;/li&gt;
 &lt;/ul&gt;
 
 &lt;h2 id='internal_interruptions'&gt;INTERNAL INTERRUPTIONS&lt;/h2&gt;
 
+&lt;ul&gt;
+&lt;li&gt;Update the clean code cheat sheet while reading the last agile in a flash card. I should have deferred this to the to-do list. The error is always the same: thinking I can do something in the 5 mins break and it takes 15 mins instead. Defer, defer, defer.&lt;/li&gt;
+
+&lt;li&gt;Voided again, my bad. I couldn&amp;#8217;t resist to formulate a tweet after readning on twitter and it took ages. I should consider not opening twitters each break because potentially dangerous.&lt;/li&gt;
+&lt;/ul&gt;
+
 &lt;h2 id='external_interruptions'&gt;EXTERNAL INTERRUPTIONS&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Palomino&amp;#8217;s updates from wife, aborting. Can&amp;#8217;t really close chat in this case.&lt;/li&gt;
+&lt;/ul&gt;
 
 &lt;h2 id='raw_dump'&gt;RAW DUMP&lt;/h2&gt;
 &lt;pre&gt;&lt;code&gt;
-  80|@website finally got gh-pages as master submodule so I can change the site from the master branch|2009-03-17 08:43:32 -0500
-  81|@planning|2009-03-17 09:17:49 -0500
-  82|@modularization mainview having fun with layouts. Trying to be short, I just want the widgets to be in the right place|2009-03-17 09:49:23 -0500
-  83|@modularization back to absolute pixels for the view after huge frustration with layouts.|2009-03-17 10:20:01 -0500
-  84|@modularization fine tuned the main view to be similar to application.rb now need to extract controllers.|2009-03-17 10:53:08 -0500
-  85|@modularization extracting the view logic from the timerfield in preparation for renaming to timercontroller|2009-03-17 11:23:57 -0500
-  86|@modularization forced the timerfield to use the injected view for timer ticks. Need to update rest of application.rb|2009-03-17 11:55:09 -0500&lt;/code&gt;&lt;/pre&gt;</content>
+  87|@planning trying to shrink refactoring to 6 pomodoros today|2009-03-19 10:20:45 -0500
+  88|@planning splitted tasks for the modularization process.|2009-03-19 11:03:02 -0500
+  89|@modularization moving timer related event handling from application to timer controller.|2009-03-19 11:50:38 -0500
+  90|@modularization going fast but much more than a single pomo to move all behavior into the timer controller.|2009-03-19 12:21:21 -0500
+  91|@modularization last pomodoro of the day. I think I did big steps but underestimated the effort. Mostly done with the new timer controller.|2009-03-19 13:08:44 -0500
+&lt;/code&gt;&lt;/pre&gt;</content>
  </entry>
  
  <entry>
