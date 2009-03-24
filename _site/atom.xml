@@ -4,13 +4,61 @@
  <title>Pomodori</title>
  <link href="http://reborg.github.com/pomodori/atom.xml" rel="self"/>
  <link href="http://reborg.github.com/pomodori/"/>
- <updated>2009-03-20T17:36:52-05:00</updated>
+ <updated>2009-03-23T19:34:04-05:00</updated>
  <id>http://reborg.github.com/pomodori/</id>
  <author>
    <name>Reborg</name>
    <email>reborg@reborg.net</email>
  </author>
 
+ 
+ <entry>
+   <title>closing huge refactoring (hopefully)</title>
+   <link href="http://reborg.github.com/pomodori/2009/03/23/todo.html"/>
+   <updated>2009-03-23T00:00:00-05:00</updated>
+   <id>http://reborg.github.com/pomodori/2009/03/23/todo</id>
+   <content type="html">&lt;h2 id='todays_planned_6'&gt;TODAY&amp;#8217;s PLANNED 6&lt;/h2&gt;
+
+&lt;h2 id='todays_done_6'&gt;TODAY&amp;#8217;s DONE 6&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;modularization modal button controller with on click methods for submit, void, stop and callbacks to main view to change labels 4 =&amp;gt; 5&lt;/li&gt;
+
+&lt;li&gt;modularization summary controller to control statistics display with update-summary and format-metrics 2 =&amp;gt; 1&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id='todays_not_done'&gt;TODAY&amp;#8217;s NOT DONE&lt;/h2&gt;
+
+&lt;h2 id='standup'&gt;STANDUP&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;I was taking a convolute path when I saw a state machine in the modal button controller. That&amp;#8217;s BDUF and not the simplest thing.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id='pomospective'&gt;POMOSPECTIVE&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Forced to abort current pomodoro and session for external problems.&lt;/li&gt;
+
+&lt;li&gt;Forcing brain relaxing activities during the break. No more mails/rss, plus standup from chair.&lt;/li&gt;
+
+&lt;li&gt;Going easy on long break to avoid brain draining.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id='internal_interruptions'&gt;INTERNAL INTERRUPTIONS&lt;/h2&gt;
+
+&lt;h2 id='external_interruptions'&gt;EXTERNAL INTERRUPTIONS&lt;/h2&gt;
+
+&lt;h2 id='raw_dump'&gt;RAW DUMP&lt;/h2&gt;
+&lt;pre&gt;&lt;code&gt;
+  97|@modalcontroller creating necessary action behavior when pressing the button with different states|2009-03-23 16:55:58 -0500
+  98|@modalcontroller I think I'm done with the controller, now need to install it into the main view.|2009-03-23 17:26:26 -0500
+  99|@modalcontroller going through all the failing tests and organizing the test suite after the new test classes were added|2009-03-23 17:57:18 -0500
+  100|@modalcontroller wasted some time for a stupid error (action instead of on-action)|2009-03-23 18:29:28 -0500
+  101|@modalcontroller I fixed all tests, now I want to try a run before the refactoring that changes names and move models/controllers|2009-03-23 19:01:14 -0500
+  102|@modularization it's almost working as before. I should be able to make it work 100% with just a couple of tweaks|2009-03-23 19:32:25 -0500
+&lt;/code&gt;&lt;/pre&gt;</content>
+ </entry>
  
  <entry>
    <title>controllers refactoring</title>
