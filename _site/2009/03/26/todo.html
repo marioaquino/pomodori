@@ -5,7 +5,7 @@
     <meta http-equiv="Content-type" content="text/html; charset=utf-8">
     <meta name="viewport" content="width = 750">
     <link rel="stylesheet" type="text/css" href="../../../css/stylesheet.css" charset="utf-8">
-    <title>some refactoring</title>
+    <title>back to charts</title>
   </head>
   <body id="intro">
     <div id="wrapper">
@@ -28,35 +28,48 @@
       </div>
       <div id="page_body">
         <div id="content">
-          <h2 id='today_planned_9'>TODAY PLANNED 9</h2>
+          <h2 id='todays_planned_4'>TODAY&#8217;s PLANNED 4</h2>
+
+<h2 id='todays_done_3'>TODAY&#8217;s DONE 3</h2>
 
 <ul>
-<li>planning 1</li>
+<li>\@spike samr try to use it for an html file defining a syntax similar to erb. 4 =&gt; 2</li>
 
-<li>refact extract multiple controllers and new mainview object from application.rb 4</li>
-
-<li>charts Add a feature to the pomodoro model so that &#8216;something&#8217; in the description is automatically collected as tag internally 4</li>
+<li>\@spike custom solution to the html parsing problem 2 =&gt; 1</li>
 </ul>
 
-<h2 id='today_done'>TODAY DONE</h2>
+<h2 id='todays_not_done'>TODAY&#8217;s NOT DONE</h2>
+
+<h2 id='standup'>STANDUP</h2>
 
 <ul>
-<li>planning 1 =&gt; 1</li>
+<li>Closed all refactoring operations. The architecture is now: 1 class to handle the UI for a window, multiple controllers to handle widget on that window, models if persisted state is involved.</li>
+
+<li>Also tweaked the UI using a nice looking gradient fill.</li>
+
+<li>Today: back to business value! I left charting when I created that mocked view to show the web-view and css-charting was a working possibility</li>
+
+<li>I need a template mechanism with placeholders for the chart template. Radius was not parsing correctly. Placeholder by hand are good until I need looping. Samr?</li>
 </ul>
 
-<h2 id='today_not_done'>TODAY NOT DONE</h2>
+<h2 id='pomospective'>POMOSPECTIVE</h2>
 
 <ul>
-<li>refact extract multiple controllers and new mainview object from application.rb. 4 =&gt; 7</li>
+<li>I need to schedule also non-billable time, something I need to do before working on Pomodori needs to run on Pomodoro too, even though is not tracked here.</li>
 
-<li>charts Add a feature to the pomodoro model so that &#8216;something&#8217; in the description is automatically collected as tag internally. 4.</li>
+<li>Few pomodoros are always good pomodoros.</li>
 </ul>
 
 <h2 id='internal_interruptions'>INTERNAL INTERRUPTIONS</h2>
 
 <h2 id='external_interruptions'>EXTERNAL INTERRUPTIONS</h2>
 
-<h2 id='relevant_history'>RELEVANT HISTORY</h2>
+<h2 id='raw_dump'>RAW DUMP</h2>
+<pre><code>
+  109|\@spike trying semr. I need to remove the oniguruma dependency if I want to use it. It looks possible. Doing.|2009-03-26 17:31:06 -0500
+  110|\@spike semr: wrote to the author. I can't make it work with plain regexp. Ready to go manual html parsing.|2009-03-26 18:10:27 -0500
+  111|\@spike own solution with replacement done by just expanding HTML into the template. Working.|2009-03-26 18:43:07 -0500
+</code></pre>
                     
           <script type="text/javascript">var disqus_url = "http://reborg.github.com/pomodori/"; var disqus_title ="";</script>
           <div id="disqus_thread"></div><script type="text/javascript" src="http://disqus.com/forums/pomodori/embed.js"></script>

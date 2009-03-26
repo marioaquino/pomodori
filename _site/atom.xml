@@ -4,13 +4,142 @@
  <title>Pomodori</title>
  <link href="http://reborg.github.com/pomodori/atom.xml" rel="self"/>
  <link href="http://reborg.github.com/pomodori/"/>
- <updated>2009-03-23T19:34:04-05:00</updated>
+ <updated>2009-03-26T18:53:32-05:00</updated>
  <id>http://reborg.github.com/pomodori/</id>
  <author>
    <name>Reborg</name>
    <email>reborg@reborg.net</email>
  </author>
 
+ 
+ <entry>
+   <title>back to charts</title>
+   <link href="http://reborg.github.com/pomodori/2009/03/26/todo.html"/>
+   <updated>2009-03-26T00:00:00-05:00</updated>
+   <id>http://reborg.github.com/pomodori/2009/03/26/todo</id>
+   <content type="html">&lt;h2 id='todays_planned_4'&gt;TODAY&amp;#8217;s PLANNED 4&lt;/h2&gt;
+
+&lt;h2 id='todays_done_3'&gt;TODAY&amp;#8217;s DONE 3&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;\@spike samr try to use it for an html file defining a syntax similar to erb. 4 =&amp;gt; 2&lt;/li&gt;
+
+&lt;li&gt;\@spike custom solution to the html parsing problem 2 =&amp;gt; 1&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id='todays_not_done'&gt;TODAY&amp;#8217;s NOT DONE&lt;/h2&gt;
+
+&lt;h2 id='standup'&gt;STANDUP&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Closed all refactoring operations. The architecture is now: 1 class to handle the UI for a window, multiple controllers to handle widget on that window, models if persisted state is involved.&lt;/li&gt;
+
+&lt;li&gt;Also tweaked the UI using a nice looking gradient fill.&lt;/li&gt;
+
+&lt;li&gt;Today: back to business value! I left charting when I created that mocked view to show the web-view and css-charting was a working possibility&lt;/li&gt;
+
+&lt;li&gt;I need a template mechanism with placeholders for the chart template. Radius was not parsing correctly. Placeholder by hand are good until I need looping. Samr?&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id='pomospective'&gt;POMOSPECTIVE&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;I need to schedule also non-billable time, something I need to do before working on Pomodori needs to run on Pomodoro too, even though is not tracked here.&lt;/li&gt;
+
+&lt;li&gt;Few pomodoros are always good pomodoros.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id='internal_interruptions'&gt;INTERNAL INTERRUPTIONS&lt;/h2&gt;
+
+&lt;h2 id='external_interruptions'&gt;EXTERNAL INTERRUPTIONS&lt;/h2&gt;
+
+&lt;h2 id='raw_dump'&gt;RAW DUMP&lt;/h2&gt;
+&lt;pre&gt;&lt;code&gt;
+  109|\@spike trying semr. I need to remove the oniguruma dependency if I want to use it. It looks possible. Doing.|2009-03-26 17:31:06 -0500
+  110|\@spike semr: wrote to the author. I can't make it work with plain regexp. Ready to go manual html parsing.|2009-03-26 18:10:27 -0500
+  111|\@spike own solution with replacement done by just expanding HTML into the template. Working.|2009-03-26 18:43:07 -0500
+&lt;/code&gt;&lt;/pre&gt;</content>
+ </entry>
+ 
+ <entry>
+   <title>extracting controllers</title>
+   <link href="http://reborg.github.com/pomodori/2009/03/24/todo.html"/>
+   <updated>2009-03-24T00:00:00-05:00</updated>
+   <id>http://reborg.github.com/pomodori/2009/03/24/todo</id>
+   <content type="html">&lt;h2 id='todays_planned_9'&gt;TODAY&amp;#8217;s PLANNED 9&lt;/h2&gt;
+
+&lt;h2 id='todays_done'&gt;TODAY&amp;#8217;s DONE&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;modularization manual acceptance UI plus fixing button actions plus add test coverage 4 =&amp;gt; 4&lt;/li&gt;
+
+&lt;li&gt;modularization move models to models and controllers to controllers plus renaming 2 =&amp;gt; 2&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id='todays_not_done'&gt;TODAY&amp;#8217;s NOT DONE&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Charts&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id='standup'&gt;STANDUP&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;I was able to close with the main refactoring operations like extracting controllers and fix the test suite&lt;/li&gt;
+
+&lt;li&gt;I started manual acceptance of the new GUI and there are button actions to fix&lt;/li&gt;
+
+&lt;li&gt;Today: keep going with the manual acceptance until everything works and create test to cover the fix, commit a working app.&lt;/li&gt;
+
+&lt;li&gt;Final refactoring: rename countdown field, move pomodoro to models, delete useless old wrapper UI classes and commit again&lt;/li&gt;
+
+&lt;li&gt;Everything should be ready for the next session to start working again on charts.&lt;/li&gt;
+
+&lt;li&gt;Be careful with breaks and longer breaks&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id='pomospective'&gt;POMOSPECTIVE&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Had session abort 2 hours before expected. Nothing I can do about it right now.&lt;/li&gt;
+
+&lt;li&gt;I was good with estimates to close the refactoring&lt;/li&gt;
+
+&lt;li&gt;I was strict with 5 mins break: did nothing.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id='internal_interruptions'&gt;INTERNAL INTERRUPTIONS&lt;/h2&gt;
+
+&lt;h2 id='external_interruptions'&gt;EXTERNAL INTERRUPTIONS&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Several quick IM message exchange&lt;/li&gt;
+
+&lt;li&gt;Abort session&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id='raw_dump'&gt;RAW DUMP&lt;/h2&gt;
+&lt;pre&gt;&lt;code&gt;
+  103
+  |@modularization fixed void click with a sender argument, now fixing submit click and writing tests
+  |2009-03-24 08:03:15 -0500
+  104
+  |@modularization realized I was not saving the pomo on submit fixed
+  |2009-03-24 08:35:10 -0500
+  105
+  |@modularization cosmetic changes to summary position plus tried borderless
+  |2009-03-24 09:06:44 -0500
+  106
+  |@modularization committed, plus some other small fixes like removing the application class that was almost useless
+  |2009-03-24 09:38:46 -0500
+  107
+  |@modularization renamed and moved the countdown field into timer controller
+  |2009-03-24 11:20:35:43 -0500
+  108
+  |@modularization moved controllers and models to specific folders, fixed slow tests by mocking main view
+  |2009-03-24 11:58:18:26 -0500
+&lt;/code&gt;&lt;/pre&gt;</content>
+ </entry>
  
  <entry>
    <title>closing huge refactoring (hopefully)</title>
