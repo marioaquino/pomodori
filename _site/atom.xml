@@ -4,7 +4,7 @@
  <title>Pomodori</title>
  <link href="http://reborg.github.com/pomodori/atom.xml" rel="self"/>
  <link href="http://reborg.github.com/pomodori/"/>
- <updated>2009-03-31T14:32:46-05:00</updated>
+ <updated>2009-03-31T17:21:15-05:00</updated>
  <id>http://reborg.github.com/pomodori/</id>
  <author>
    <name>Reborg</name>
@@ -19,27 +19,39 @@
    <id>http://reborg.github.com/pomodori/2009/03/31/todo</id>
    <content type="html">&lt;h2 id='todays_planned_5'&gt;TODAY&amp;#8217;s PLANNED 5&lt;/h2&gt;
 
+&lt;h2 id='todays_done_6'&gt;TODAY&amp;#8217;s DONE 6&lt;/h2&gt;
+
 &lt;ul&gt;
-&lt;li&gt;\@charts need to tweak the HTML produced 1&lt;/li&gt;
+&lt;li&gt;\@planning planned the plan 1 =&amp;gt; 1&lt;/li&gt;
 
-&lt;li&gt;\@charts The chart-controller is called by the view to obtain the chart url or reload/close operations and the alike 2&lt;/li&gt;
+&lt;li&gt;\@charts need to tweak the HTML produced 1 =&amp;gt; 3&lt;/li&gt;
 
-&lt;li&gt;\@build commit, test, build automation just a bit 1&lt;/li&gt;
+&lt;li&gt;\@charts The chart-controller is called by the view to obtain the chart url or reload/close operations and the alike 2 =&amp;gt; 1&lt;/li&gt;
+
+&lt;li&gt;\@build commit, test, build automation just a bit 1 =&amp;gt; 1&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id='todays_not_done'&gt;TODAY&amp;#8217;s NOT DONE&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;\@charts The chart-controller is called by the view to obtain the chart url or reload/close operations and the alike 2 =&amp;gt; 1 (Missing: reload button should reload and open report from the main view should always work)&lt;/li&gt;
 
 &lt;li&gt;\@marketing \@website better screenshot for the website, release 0.2 1&lt;/li&gt;
 &lt;/ul&gt;
-
-&lt;h2 id='todays_done'&gt;TODAY&amp;#8217;s DONE&lt;/h2&gt;
-
-&lt;h2 id='todays_not_done'&gt;TODAY&amp;#8217;s NOT DONE&lt;/h2&gt;
 
 &lt;h2 id='standup'&gt;STANDUP&lt;/h2&gt;
 
 &lt;ul&gt;
 &lt;li&gt;Was almost done with chart processing last session&lt;/li&gt;
+
+&lt;li&gt;Today closing summary chart basics and probably there will be some tweaking next days&lt;/li&gt;
 &lt;/ul&gt;
 
 &lt;h2 id='pomospective'&gt;POMOSPECTIVE&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Couldn&amp;#8217;t break very well today, feel the pressure of the incoming presentations and the fact that I don&amp;#8217;t know how much time I have available per day these days&lt;/li&gt;
+&lt;/ul&gt;
 
 &lt;h2 id='internal_interruptions'&gt;INTERNAL INTERRUPTIONS&lt;/h2&gt;
 
@@ -47,6 +59,24 @@
 
 &lt;h2 id='raw_dump'&gt;RAW DUMP&lt;/h2&gt;
 &lt;pre&gt;&lt;code&gt;
+  122
+\@planning
+2009-03-31 14:34:18 -0500
+  123
+\@charts implemented process method for template but test failing.
+2009-03-31 15:05:28 -0500
+  124
+\@charts I was missing the template in the right place and the main view now needs to start the chart view using the controller
+2009-03-31 15:36:31 -0500
+  125
+\@charts having troubles with the html. CSS seems to be gone.
+2009-03-31 16:07:59 -0500
+  126
+\@charts found the bug right at the end. The css file was not in the tmp directory
+2009-03-31 16:41:04 -0500
+  127
+\@charts fixed UI and main commit. Several other details remain, reload button and reopening view.
+2009-03-31 17:13:20 -0500
 &lt;/code&gt;&lt;/pre&gt;</content>
  </entry>
  
