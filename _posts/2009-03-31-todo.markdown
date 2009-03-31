@@ -1,0 +1,36 @@
+---
+layout: post
+title: summary chart
+---
+
+TODAY's PLANNED 5
+---------------
+* \@charts need to tweak the HTML produced 1
+* \@charts The chart-controller is called by the view to obtain the chart url or reload/close operations and the alike 2
+* \@build commit, test, build automation just a bit 1
+* \@marketing \@website better screenshot for the website, release 0.2 1
+
+
+TODAY's DONE
+------------
+
+TODAY's NOT DONE
+----------------
+
+STANDUP
+-------
+* Was almost done with chart processing last session
+
+POMOSPECTIVE
+-------------
+
+INTERNAL INTERRUPTIONS
+----------------------
+
+EXTERNAL INTERRUPTIONS
+----------------------
+
+RAW DUMP
+--------
+<pre><code>
+</code></pre>

@@ -5,7 +5,7 @@
     <meta http-equiv="Content-type" content="text/html; charset=utf-8">
     <meta name="viewport" content="width = 750">
     <link rel="stylesheet" type="text/css" href="../../../css/stylesheet.css" charset="utf-8">
-    <title>main view work in progress</title>
+    <title>charts in progress</title>
   </head>
   <body id="intro">
     <div id="wrapper">
@@ -28,62 +28,58 @@
       </div>
       <div id="page_body">
         <div id="content">
-          <h2 id='todays_planned_9'>TODAY&#8217;s PLANNED 9</h2>
+          <h2 id='todays_planned_7'>TODAY&#8217;s PLANNED 7</h2>
 
-<h2 id='todays_done_7'>TODAY&#8217;s DONE 7</h2>
+<h2 id='todays_done_6'>TODAY&#8217;s DONE 6</h2>
 
 <ul>
-<li>planning 1 =&gt; 1</li>
-
-<li>add gh-pages as submodule of master 2 =&gt; 1</li>
-
-<li>modularization: replace actual application.rb UI with mainview object 2 =&gt; 3</li>
-
-<li>modularization: extract multiple controllers and new mainview object from application.rb. 4 =&gt; 2</li>
+<li>\@template a component that reads an html and replaces placeholder with actual data 6 =&gt; 6 (but not finished)</li>
 </ul>
 
 <h2 id='todays_not_done'>TODAY&#8217;s NOT DONE</h2>
 
 <ul>
-<li>modularization: extract multiple controllers and new mainview object from application.rb. 4 =&gt; 2</li>
+<li>\@template a component that reads an html and replaces placeholder with actual data 6 =&gt; 6 (not done)</li>
+
+<li>\@charts @layout move back to absolute positioning 1</li>
 </ul>
 
 <h2 id='standup'>STANDUP</h2>
 
 <ul>
-<li>I need to decide how big the refactoring should be and if I can call it refactoring or just a re-write of the application.rb</li>
+<li>Yesterday I did some working on the HTML template prototype and decided that a simple text expansion is all I need</li>
 
-<li>I think UI modularization is more appropriate</li>
-
-<li>The work to do is to finish the layout of the mainview until I have more or less the same visual appeal of before</li>
-
-<li>Consider not to waste too much time fine tweaking the UI, try to get the modularization done first and then fine tweak the UI. The important thing is that you see everything on the UI working as before.</li>
+<li>Today I&#8217;m going to create that component that handle all the html creation from the template to the temp file with real data substitution</li>
 </ul>
 
-<h2 id='retrospective'>RETROSPECTIVE</h2>
+<h2 id='pomospective'>POMOSPECTIVE</h2>
 
 <ul>
-<li>Planned 9, actually done 7</li>
+<li>Fairly good estimates</li>
 
-<li>I have to be more careful about judging how much time I have available considering one long break every 4 hours</li>
-
-<li>The refactoring operations are much more complicated than expected I should split into multiple tasks or consider if I&#8217;m working on focus. Is the main view creation part of the controller extraction?</li>
+<li>Was not able to split the task into subtasks. There are 3 subtasks to this &#8220;component&#8221;. A design pomodoro maybe would do the trick.</li>
 </ul>
 
 <h2 id='internal_interruptions'>INTERNAL INTERRUPTIONS</h2>
 
+<ul>
+<li>Several micro-internal-interruptions mainly due to my breaks reading mail and tweets and following up to them on the go. Got to stop this.</li>
+</ul>
+
 <h2 id='external_interruptions'>EXTERNAL INTERRUPTIONS</h2>
+
+<ul>
+<li>I had an abort session before I closed the last pomodoro</li>
+</ul>
 
 <h2 id='raw_dump'>RAW DUMP</h2>
 <pre><code>
-  73|@planning plus fixing some markdown jekyll generation issue|2009-03-16 15:07:24 -0500
-  74|@refactor creating the main view and learning how to align layout-views correctly using the example app|2009-03-16 15:37:57 -0500
-  75|@refactor creating the main-view more layout madness|2009-03-16 16:08:50 -0500
-  76|@refactor creating the main view. Had to decide if to use the same label for input and output. Also had a look at NSIMage for the pomo icon|2009-03-16 16:39:49 -0500
-  77|@refactor done with main-view creation copy pasting from application. It doesn't visualize as expected.|2009-03-16 17:29:42 -0500
-  78|@refactor testing the new main view but having problems to see where the margin of the layouts are.|2009-03-16 18:02:54 -0500
-  79|@refactor did some progress on understanding layouts. The mode vertical/horizontal for example. Still fighting for the best layout.|2009-03-16 18:36:55 -0500
-  80|@website finally got gh-pages as master submodule so I can change the site from the master branch|2009-03-17 08:43:32 -0500
+  112|\@charts writing the chart model that loads template and makes substitutions|2009-03-27 07:47:55 -0500
+  113|\@charts creating logic to replace a ERB like tag from a line of text|2009-03-27 08:18:38 -0500
+  114|\@charts going strategies from the main chart class to create different types of charts. The summary is the default, by day is the second.|2009-03-27 08:51:21 -0500
+  115|\@charts done with the template processing, only need to call pomodorocountbyday|2009-03-27 09:23:52 -0500
+  116|\@charts implementing the pomodoro by count class. Creating the test pomodoros.|2009-03-27 10:20:11 -0500
+  117|\@charts almost done with the pomo count abstraction. Need to create attr accessors.|2009-03-27 10:51:31 -0500
 </code></pre>
                     
           <script type="text/javascript">var disqus_url = "http://reborg.github.com/pomodori/"; var disqus_title ="";</script>
