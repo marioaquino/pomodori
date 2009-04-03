@@ -4,7 +4,7 @@
  <title>Pomodori</title>
  <link href="http://reborg.github.com/pomodori/atom.xml" rel="self"/>
  <link href="http://reborg.github.com/pomodori/"/>
- <updated>2009-04-03T15:59:50-05:00</updated>
+ <updated>2009-04-03T16:11:47-05:00</updated>
  <id>http://reborg.github.com/pomodori/</id>
  <author>
    <name>Reborg</name>
@@ -18,6 +18,8 @@
    <updated>2009-04-04T00:00:00-05:00</updated>
    <id>http://reborg.github.com/pomodori/2009/04/04/ann-0.2</id>
    <content type="html">&lt;h1 id='pomodori_02_is_out'&gt;Pomodori 0.2 is out!&lt;/h1&gt;
+
+&lt;p&gt;&lt;img src='../../../resources/chart-pom-count.png' alt='Pomodoro Count' /&gt;&lt;/p&gt;
 
 &lt;p&gt;Pomodori now draws charts! The first simple chart has been introduced with this release. The bar chart shows how many pomodoros you worked by day. This metric can be used to see the fluctuation of your productivity over time and why there are good and bad days. This is just the first of a series of chart I&amp;#8217;d like to introduce to improve your Pomodoro Technique.&lt;/p&gt;
 
@@ -38,8 +40,6 @@
    <content type="html">&lt;h2 id='todays_planned_9'&gt;TODAY&amp;#8217;s PLANNED 9&lt;/h2&gt;
 
 &lt;ul&gt;
-&lt;li&gt;\@marketing \@website better screenshot for the website, blog post about 0.2, update documentation release 0.2 1 =&amp;gt; 1&lt;/li&gt;
-
 &lt;li&gt;\@chirb presentation part one, macruby, hotcocoa intro 2&lt;/li&gt;
 
 &lt;li&gt;\@chirb presentation part two, pomodoro technique intro 1&lt;/li&gt;
@@ -49,12 +49,14 @@
 &lt;li&gt;\@chirb presentation part four, conclusions, pros, cons, links 1&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;h2 id='todays_done_2'&gt;TODAY&amp;#8217;s DONE 2&lt;/h2&gt;
+&lt;h2 id='todays_done_4'&gt;TODAY&amp;#8217;s DONE 4&lt;/h2&gt;
 
 &lt;ul&gt;
 &lt;li&gt;\@planning 1 =&amp;gt; 1&lt;/li&gt;
 
 &lt;li&gt;\@charts The chart-controller is called by the view to obtain the chart url or reload/close operations and the alike 2 =&amp;gt; 2 (Missing: reload button should reload and open report from the main view should always work)&lt;/li&gt;
+
+&lt;li&gt;\@marketing \@website better screenshot for the website, blog post about 0.2, update documentation release 0.2 1 =&amp;gt; 2&lt;/li&gt;
 &lt;/ul&gt;
 
 &lt;h2 id='todays_not_done'&gt;TODAY&amp;#8217;s NOT DONE&lt;/h2&gt;

@@ -5,16 +5,16 @@ title: clean-up charts for 0.2
 
 TODAY's PLANNED 9
 ---------------
-* \@marketing \@website better screenshot for the website, blog post about 0.2, update documentation release 0.2 1 => 1
 * \@chirb presentation part one, macruby, hotcocoa intro 2
 * \@chirb presentation part two, pomodoro technique intro 1
 * \@chirb presentation part three, pomodori app, testing challenge, architecture 2
 * \@chirb presentation part four, conclusions, pros, cons, links 1
 
-TODAY's DONE 2
+TODAY's DONE 4
 ------------
 * \@planning 1 => 1
 * \@charts The chart-controller is called by the view to obtain the chart url or reload/close operations and the alike 2 => 2 (Missing: reload button should reload and open report from the main view should always work)
+* \@marketing \@website better screenshot for the website, blog post about 0.2, update documentation release 0.2 1 => 2
 
 TODAY's NOT DONE
 ----------------
