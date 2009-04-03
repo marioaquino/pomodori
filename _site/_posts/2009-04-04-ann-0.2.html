@@ -5,7 +5,7 @@
     <meta http-equiv="Content-type" content="text/html; charset=utf-8">
     <meta name="viewport" content="width = 750">
     <link rel="stylesheet" type="text/css" href="../../../css/stylesheet.css" charset="utf-8">
-    <title>closing huge refactoring (hopefully)</title>
+    <title>Announcing 0.2 release</title>
   </head>
   <body id="intro">
     <div id="wrapper">
@@ -28,47 +28,17 @@
       </div>
       <div id="page_body">
         <div id="content">
-          <h2 id='todays_planned_6'>TODAY&#8217;s PLANNED 6</h2>
+          <h1 id='pomodori_02_is_out'>Pomodori 0.2 is out!</h1>
 
-<h2 id='todays_done_6'>TODAY&#8217;s DONE 6</h2>
+<p>Pomodori now draws charts! The first simple chart has been introduced with this release. The bar chart shows how many pomodoros you worked by day. This metric can be used to see the fluctuation of your productivity over time and why there are good and bad days. This is just the first of a series of chart I&#8217;d like to introduce to improve your Pomodoro Technique.</p>
 
-<ul>
-<li>modularization modal button controller with on click methods for submit, void, stop and callbacks to main view to change labels 4 =&gt; 5</li>
+<p>As far as I learn to be a better Cocoa programmer, I tweak the UI to be more usable and better looking. I added the pomodoro icon and a gradient to the interface. More substantial UI improvement to come in the future.</p>
 
-<li>modularization summary controller to control statistics display with update-summary and format-metrics 2 =&gt; 1</li>
-</ul>
+<p>A less evident change was done with a huge refactoring to the core classes of Pomodori. There is now an architectural view that I like. As part of the refactoring there is less code which is more simple with more functionalities. The bloated application.rb class has gone and now the view only contains view logic. Multiple controllers have been created to handle all the workflow logic and comunication with the model. Happy.</p>
 
-<h2 id='todays_not_done'>TODAY&#8217;s NOT DONE</h2>
+<p>For the next 0.3 release I&#8217;d like to have all the tag based features working, including a chart by tags of pomodoros. Feel free to help me improving Pomodori!</p>
 
-<h2 id='standup'>STANDUP</h2>
-
-<ul>
-<li>I was taking a convolute path when I saw a state machine in the modal button controller. That&#8217;s BDUF and not the simplest thing.</li>
-</ul>
-
-<h2 id='pomospective'>POMOSPECTIVE</h2>
-
-<ul>
-<li>Forced to abort current pomodoro and session for external problems.</li>
-
-<li>Forcing brain relaxing activities during the break. No more mails/rss, plus standup from chair.</li>
-
-<li>Going easy on long break to avoid brain draining.</li>
-</ul>
-
-<h2 id='internal_interruptions'>INTERNAL INTERRUPTIONS</h2>
-
-<h2 id='external_interruptions'>EXTERNAL INTERRUPTIONS</h2>
-
-<h2 id='raw_dump'>RAW DUMP</h2>
-<pre><code>
-  97|@modalcontroller creating necessary action behavior when pressing the button with different states|2009-03-23 16:55:58 -0500
-  98|@modalcontroller I think I'm done with the controller, now need to install it into the main view.|2009-03-23 17:26:26 -0500
-  99|@modalcontroller going through all the failing tests and organizing the test suite after the new test classes were added|2009-03-23 17:57:18 -0500
-  100|@modalcontroller wasted some time for a stupid error (action instead of on-action)|2009-03-23 18:29:28 -0500
-  101|@modalcontroller I fixed all tests, now I want to try a run before the refactoring that changes names and move models/controllers|2009-03-23 19:01:14 -0500
-  102|@modularization it's almost working as before. I should be able to make it work 100% with just a couple of tweaks|2009-03-23 19:32:25 -0500
-</code></pre>
+<p>See ya.</p>
                     
           <script type="text/javascript">var disqus_url = "http://reborg.github.com/pomodori/"; var disqus_title ="";</script>
           <div id="disqus_thread"></div><script type="text/javascript" src="http://disqus.com/forums/pomodori/embed.js"></script>

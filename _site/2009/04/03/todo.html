@@ -5,7 +5,7 @@
     <meta http-equiv="Content-type" content="text/html; charset=utf-8">
     <meta name="viewport" content="width = 750">
     <link rel="stylesheet" type="text/css" href="../../../css/stylesheet.css" charset="utf-8">
-    <title>closing huge refactoring (hopefully)</title>
+    <title>clean-up charts for 0.2</title>
   </head>
   <body id="intro">
     <div id="wrapper">
@@ -28,14 +28,26 @@
       </div>
       <div id="page_body">
         <div id="content">
-          <h2 id='todays_planned_6'>TODAY&#8217;s PLANNED 6</h2>
-
-<h2 id='todays_done_6'>TODAY&#8217;s DONE 6</h2>
+          <h2 id='todays_planned_9'>TODAY&#8217;s PLANNED 9</h2>
 
 <ul>
-<li>modularization modal button controller with on click methods for submit, void, stop and callbacks to main view to change labels 4 =&gt; 5</li>
+<li>\@marketing \@website better screenshot for the website, blog post about 0.2, update documentation release 0.2 1 =&gt; 1</li>
 
-<li>modularization summary controller to control statistics display with update-summary and format-metrics 2 =&gt; 1</li>
+<li>\@chirb presentation part one, macruby, hotcocoa intro 2</li>
+
+<li>\@chirb presentation part two, pomodoro technique intro 1</li>
+
+<li>\@chirb presentation part three, pomodori app, testing challenge, architecture 2</li>
+
+<li>\@chirb presentation part four, conclusions, pros, cons, links 1</li>
+</ul>
+
+<h2 id='todays_done_2'>TODAY&#8217;s DONE 2</h2>
+
+<ul>
+<li>\@planning 1 =&gt; 1</li>
+
+<li>\@charts The chart-controller is called by the view to obtain the chart url or reload/close operations and the alike 2 =&gt; 2 (Missing: reload button should reload and open report from the main view should always work)</li>
 </ul>
 
 <h2 id='todays_not_done'>TODAY&#8217;s NOT DONE</h2>
@@ -43,18 +55,16 @@
 <h2 id='standup'>STANDUP</h2>
 
 <ul>
-<li>I was taking a convolute path when I saw a state machine in the modal button controller. That&#8217;s BDUF and not the simplest thing.</li>
+<li>today should be able to close release 0.2 with the simple chart working properly.</li>
+
+<li>There is a fix to be done in the way the chart is loaded everytime</li>
+
+<li>The reload button is not working now</li>
 </ul>
 
 <h2 id='pomospective'>POMOSPECTIVE</h2>
 
-<ul>
-<li>Forced to abort current pomodoro and session for external problems.</li>
-
-<li>Forcing brain relaxing activities during the break. No more mails/rss, plus standup from chair.</li>
-
-<li>Going easy on long break to avoid brain draining.</li>
-</ul>
+<p>*</p>
 
 <h2 id='internal_interruptions'>INTERNAL INTERRUPTIONS</h2>
 
@@ -62,12 +72,24 @@
 
 <h2 id='raw_dump'>RAW DUMP</h2>
 <pre><code>
-  97|@modalcontroller creating necessary action behavior when pressing the button with different states|2009-03-23 16:55:58 -0500
-  98|@modalcontroller I think I'm done with the controller, now need to install it into the main view.|2009-03-23 17:26:26 -0500
-  99|@modalcontroller going through all the failing tests and organizing the test suite after the new test classes were added|2009-03-23 17:57:18 -0500
-  100|@modalcontroller wasted some time for a stupid error (action instead of on-action)|2009-03-23 18:29:28 -0500
-  101|@modalcontroller I fixed all tests, now I want to try a run before the refactoring that changes names and move models/controllers|2009-03-23 19:01:14 -0500
-  102|@modularization it's almost working as before. I should be able to make it work 100% with just a couple of tweaks|2009-03-23 19:32:25 -0500
+  122
+\@planning
+2009-03-31 14:34:18 -0500
+  123
+\@charts implemented process method for template but test failing.
+2009-03-31 15:05:28 -0500
+  124
+\@charts I was missing the template in the right place and the main view now needs to start the chart view using the controller
+2009-03-31 15:36:31 -0500
+  125
+\@charts having troubles with the html. CSS seems to be gone.
+2009-03-31 16:07:59 -0500
+  126
+\@charts found the bug right at the end. The css file was not in the tmp directory
+2009-03-31 16:41:04 -0500
+  127
+\@charts fixed UI and main commit. Several other details remain, reload button and reopening view.
+2009-03-31 17:13:20 -0500
 </code></pre>
                     
           <script type="text/javascript">var disqus_url = "http://reborg.github.com/pomodori/"; var disqus_title ="";</script>

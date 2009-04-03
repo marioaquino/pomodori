@@ -4,13 +4,101 @@
  <title>Pomodori</title>
  <link href="http://reborg.github.com/pomodori/atom.xml" rel="self"/>
  <link href="http://reborg.github.com/pomodori/"/>
- <updated>2009-03-31T17:21:15-05:00</updated>
+ <updated>2009-04-03T15:59:50-05:00</updated>
  <id>http://reborg.github.com/pomodori/</id>
  <author>
    <name>Reborg</name>
    <email>reborg@reborg.net</email>
  </author>
 
+ 
+ <entry>
+   <title>Announcing 0.2 release</title>
+   <link href="http://reborg.github.com/pomodori/2009/04/04/ann-0.2.html"/>
+   <updated>2009-04-04T00:00:00-05:00</updated>
+   <id>http://reborg.github.com/pomodori/2009/04/04/ann-0.2</id>
+   <content type="html">&lt;h1 id='pomodori_02_is_out'&gt;Pomodori 0.2 is out!&lt;/h1&gt;
+
+&lt;p&gt;Pomodori now draws charts! The first simple chart has been introduced with this release. The bar chart shows how many pomodoros you worked by day. This metric can be used to see the fluctuation of your productivity over time and why there are good and bad days. This is just the first of a series of chart I&amp;#8217;d like to introduce to improve your Pomodoro Technique.&lt;/p&gt;
+
+&lt;p&gt;As far as I learn to be a better Cocoa programmer, I tweak the UI to be more usable and better looking. I added the pomodoro icon and a gradient to the interface. More substantial UI improvement to come in the future.&lt;/p&gt;
+
+&lt;p&gt;A less evident change was done with a huge refactoring to the core classes of Pomodori. There is now an architectural view that I like. As part of the refactoring there is less code which is more simple with more functionalities. The bloated application.rb class has gone and now the view only contains view logic. Multiple controllers have been created to handle all the workflow logic and comunication with the model. Happy.&lt;/p&gt;
+
+&lt;p&gt;For the next 0.3 release I&amp;#8217;d like to have all the tag based features working, including a chart by tags of pomodoros. Feel free to help me improving Pomodori!&lt;/p&gt;
+
+&lt;p&gt;See ya.&lt;/p&gt;</content>
+ </entry>
+ 
+ <entry>
+   <title>clean-up charts for 0.2</title>
+   <link href="http://reborg.github.com/pomodori/2009/04/03/todo.html"/>
+   <updated>2009-04-03T00:00:00-05:00</updated>
+   <id>http://reborg.github.com/pomodori/2009/04/03/todo</id>
+   <content type="html">&lt;h2 id='todays_planned_9'&gt;TODAY&amp;#8217;s PLANNED 9&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;\@marketing \@website better screenshot for the website, blog post about 0.2, update documentation release 0.2 1 =&amp;gt; 1&lt;/li&gt;
+
+&lt;li&gt;\@chirb presentation part one, macruby, hotcocoa intro 2&lt;/li&gt;
+
+&lt;li&gt;\@chirb presentation part two, pomodoro technique intro 1&lt;/li&gt;
+
+&lt;li&gt;\@chirb presentation part three, pomodori app, testing challenge, architecture 2&lt;/li&gt;
+
+&lt;li&gt;\@chirb presentation part four, conclusions, pros, cons, links 1&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id='todays_done_2'&gt;TODAY&amp;#8217;s DONE 2&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;\@planning 1 =&amp;gt; 1&lt;/li&gt;
+
+&lt;li&gt;\@charts The chart-controller is called by the view to obtain the chart url or reload/close operations and the alike 2 =&amp;gt; 2 (Missing: reload button should reload and open report from the main view should always work)&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id='todays_not_done'&gt;TODAY&amp;#8217;s NOT DONE&lt;/h2&gt;
+
+&lt;h2 id='standup'&gt;STANDUP&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;today should be able to close release 0.2 with the simple chart working properly.&lt;/li&gt;
+
+&lt;li&gt;There is a fix to be done in the way the chart is loaded everytime&lt;/li&gt;
+
+&lt;li&gt;The reload button is not working now&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id='pomospective'&gt;POMOSPECTIVE&lt;/h2&gt;
+
+&lt;p&gt;*&lt;/p&gt;
+
+&lt;h2 id='internal_interruptions'&gt;INTERNAL INTERRUPTIONS&lt;/h2&gt;
+
+&lt;h2 id='external_interruptions'&gt;EXTERNAL INTERRUPTIONS&lt;/h2&gt;
+
+&lt;h2 id='raw_dump'&gt;RAW DUMP&lt;/h2&gt;
+&lt;pre&gt;&lt;code&gt;
+  122
+\@planning
+2009-03-31 14:34:18 -0500
+  123
+\@charts implemented process method for template but test failing.
+2009-03-31 15:05:28 -0500
+  124
+\@charts I was missing the template in the right place and the main view now needs to start the chart view using the controller
+2009-03-31 15:36:31 -0500
+  125
+\@charts having troubles with the html. CSS seems to be gone.
+2009-03-31 16:07:59 -0500
+  126
+\@charts found the bug right at the end. The css file was not in the tmp directory
+2009-03-31 16:41:04 -0500
+  127
+\@charts fixed UI and main commit. Several other details remain, reload button and reopening view.
+2009-03-31 17:13:20 -0500
+&lt;/code&gt;&lt;/pre&gt;</content>
+ </entry>
  
  <entry>
    <title>summary chart</title>
