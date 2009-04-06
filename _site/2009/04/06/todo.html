@@ -5,7 +5,7 @@
     <meta http-equiv="Content-type" content="text/html; charset=utf-8">
     <meta name="viewport" content="width = 750">
     <link rel="stylesheet" type="text/css" href="../../../css/stylesheet.css" charset="utf-8">
-    <title>work on charts started</title>
+    <title>chirb talk</title>
   </head>
   <body id="intro">
     <div id="wrapper">
@@ -28,38 +28,55 @@
       </div>
       <div id="page_body">
         <div id="content">
-          <p>I just realized that this brain dump and retrospective I was writing at the end of each planning page for the day is a perfect fit for the content of this micro blog! The retrospective is process only: how my PT (Pomodoro Technique) is doing, pros and cons, what went right and what went wrong. The standup is to get started for the day: yesterday&#8217;s achievements, today&#8217;s plan, design ideas and so on. Everyday is taking me 1 pomodoro for this and definitely worth it.</p>
+          <p>This is both an announce and the planning for today. The announce is that tonight I&#8217;m gonna talk about Pomodori and HotCocoa development at the Chicago Ruby User Group @ ThoughtWorks. Kind of late announce here on the Pomodori&#8217;s blog, but anyway, step by if you have a chance, show permitting.</p>
 
-<h2 id='retrospective'>Retrospective</h2>
+<h2 id='session_planned_8'>SESSION PLANNED 8</h2>
 
-<ul>
-<li>Still shooting for half a day of work these days, that means around 8 pomodoros.</li>
-
-<li>Productive morning no internal/external interruptions.</li>
-
-<li>I didn&#8217;t forget about the longer break this time.</li>
-</ul>
-
-<h2 id='standup'>Standup</h2>
+<h2 id='session_done_7'>SESSION DONE 7</h2>
 
 <ul>
-<li>There is now a button that opens a new window with a webview that shows just a static HTML. The next step is of course to connect that HTML generation to the pomodoro history.</li>
+<li>\@chirb presentation part 1, macruby, hotcocoa, pomo intro 2 =&gt; 2</li>
 
-<li>I need a component that starting from a template is able to generate the HTML table with correct numbers to host the current pomodoros worked by tags chart.</li>
+<li>\@chirb presentation part 2, pomodori app, testing challenge, architecture 4 =&gt; 4</li>
 
-<li>I also started thinking about refactoring the appliction.rb main file into multiple controllers, one for each part of the UI.</li>
-
-<li>I found the following architectural rule to be consistent: one class per view that represents only the UI tree and nothing else. One controller for each sub-view (this is because a sub-view is really an independent user story on its own). The controller can use zero or more model objects. There are controllers with no back end model. The controller works as a presenter: the controller knows about views and model and send command to change the view when the model change.</li>
-
-<li>I tried choctop: it doesn&#8217;t work without an underlying Xcode project, or at least not the tutorial. It&#8217;s a framework, so I suppose it can be used also with macruby. But I don&#8217;t know how and now it&#8217;s too complex.</li>
+<li>\@chirb presentation part 2, conclusions, pros, cons, links 2 =&gt; 1</li>
 </ul>
+
+<h2 id='session_not_done'>SESSION NOT DONE</h2>
+
+<h2 id='standup'>STANDUP</h2>
+
+<ul>
+<li>Last session I was able to close release 0.2</li>
+
+<li>Today I need to finish ChiRb slides for tonight&#8217;s talk</li>
+
+<li>Planning on a 2 pomodoros presentation</li>
+
+<li>I&#8217;ll leave the last part for the train tonight</li>
+</ul>
+
+<h2 id='pomospective'>POMOSPECTIVE</h2>
+
+<ul>
+<li>Short breaks, I felt the pressure of closing the slides with the time available</li>
+
+<li>Too bad, but I got the slides done</li>
+</ul>
+
+<h2 id='internal_interruptions'>INTERNAL INTERRUPTIONS</h2>
+
+<h2 id='external_interruptions'>EXTERNAL INTERRUPTIONS</h2>
 
 <h2 id='raw_dump'>RAW DUMP</h2>
 <pre><code>
-69|@planning realized I can use the blog feature of gh-pages as a daily plan page, retrospective and the rest.|2009-03-13 09:16:42 -0500
-70|@mvp started refactoring by extracting void pomodoro function|2009-03-13 09:55:06 -0500
-71|@refact extended pomodoro_controller to call the view and started a new main_view to remove everything UI related from application.rb|2009-03-13 11:03:19 -0500
-72|@project migrated to 0.4 now playing again with view_layout expansion to remove abolute widgets locations.|2009-03-13 11:34:30 -0500
+  145|\@chirb adding code examples on macruby and hotcocoa part|2009-04-06 08:01:30 -0500
+  146|\@chirb should be done with macruby hotcocoa and PT intro presentation first part (1 pomo talk time)|2009-04-06 08:33:57 -0500
+  147|\@chirb created first Pomodori TDD slides|2009-04-06 09:04:19 -0500
+  148|\@chirb drawing architecture slide|2009-04-06 09:36:23 -0500
+  149|\@chirb done with main architectural slides|2009-04-06 10:07:18 -0500
+  150|\@chirb writing conclusions to close|2009-04-06 10:40:02 -0500
+  151|\@chirb done|2009-04-06 11:10:14 -0500
 </code></pre>
                     
           <script type="text/javascript">var disqus_url = "http://reborg.github.com/pomodori/"; var disqus_title ="";</script>
